@@ -1,0 +1,74 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-header{
+    background-color: #264653;
+    padding-left:80px;
+}
+
+.btn-top{
+    color: white;
+    background-color: #E76F51;
+    border: none;
+    border-radius: 5px;
+    width: 168px;
+    padding: 10px;
+}
+.image-direction{
+    margin: 0%;
+    overflow-x: hidden;
+    height: a;
+}
+.g-scale img{
+    filter: grayscale(100%);
+}
+.different-text-color{
+    color: #E76F51;
+}
+.user{
+    text-align: center;
+}
+.user img{
+    width: 149px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:40px;
+    
+}
+
+.checked{
+    color: #E77C40;
+}
+.customer-name{
+    color: #23A6F0;
+    
+}
+.faq img{
+    width: 431px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+form{
+    width: 400px;
+    margin:  auto;
+    
+    
+}
+textarea{
+    width: 400px;
+    
+}
+.global-button{
+    color: white;
+    background-color: #E76F51;
+    border: none;
+    border-radius: 5px;
+    width: 168px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
