@@ -1,11 +1,22 @@
+/* font */
 body{
     font-family: 'Poppins', sans-serif;
 }
-.bg-header{
-    background-color: #264653;
-    padding-left:80px;
+
+/* universal to all */
+
+.container {
+    overflow-x: hidden ;
 }
 
+/* top section */
+
+.bg-header{
+    background-color: #264653;   
+}
+.top-start-section{
+    padding-left:80px; 
+}
 .btn-top{
     color: white;
     background-color: #E76F51;
@@ -14,11 +25,9 @@ body{
     width: 168px;
     padding: 10px;
 }
-.image-direction{
-    margin: 0%;
-    overflow-x: hidden;
-    height: a;
-}
+
+/* middle section */
+
 .g-scale img{
     filter: grayscale(100%);
 }
@@ -27,6 +36,7 @@ body{
 }
 .user{
     text-align: center;
+    
 }
 .user img{
     width: 149px;
@@ -34,15 +44,12 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding-top:40px;
-    
 }
-
 .checked{
     color: #E77C40;
 }
 .customer-name{
     color: #23A6F0;
-    
 }
 .faq img{
     width: 431px;
@@ -51,16 +58,8 @@ body{
     margin-right: auto;
     margin-top: 50px;
 }
-form{
-    width: 400px;
-    margin:  auto;
-    
-    
-}
-textarea{
-    width: 400px;
-    
-}
+
+/* final section */
 .global-button{
     color: white;
     background-color: #E76F51;
@@ -71,4 +70,12 @@ textarea{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+form{
+    width: 400px;
+    margin:  auto;
+}
+textarea{
+    width: 400px;
 }

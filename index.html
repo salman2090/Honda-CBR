@@ -12,25 +12,25 @@
 
     <!-- custom style -->
     <link rel="stylesheet" href="css/style.css">
+    
     <!-- font -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     </style>
+    
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 
 <body>
-   <header>
-
-   </header>
+    
    <main>
        <!-- top section -->
        <section class="container-fluid top-section w-100 bg-header">
-           
            <div class="row d-flex align-items-center">
-               <div class="col-lg-6 col-12">
+               <div class="col-lg-6 col-12 top-start-section">
                     <div>
                         <p class=" text-white">Computer-controlled digital transistorized with electronic advance</p>
                         <h1 class="text-white fw-bold">Honda CBR 300R</h1>
@@ -61,16 +61,17 @@
                     </div>
                </div>
 
-               <div class="col-lg-6 col-12">
+               <div class="col-lg-6 col-12 d-flex justify-content-center">
                    <img class="img-fluid" src="images/header-bike.png" alt="">
                </div>
            </div>
        </section>
 
-       <!-- middle section-01 -->
+       <!-- Categories -->
        <section class="container">
             <h1 class="text-center fw-bold mt-5">Featured Bikes</h1>
-            <div class="row pt-3">
+            <p style="color: #E76F51;" class="text-center">Best Bike Collection</p>
+            <div class="row pt-3 d-flex justify-content-center">
                 <div class="col-lg-4 col-12 g-scale">
                     <img class="img-fluid" src="images/feature-bike.jpg" alt="">
                 </div>
@@ -82,11 +83,11 @@
                 </div>
             </div>
        </section> 
-       <!-- middle section-02 -->
-       <section>
-        <h1 class="text-center fw-bold mt-5 mb-5">Happy <span class="different-text-color">Clients Say</span></h1>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4 user ps-3 pe-3 w-100">
+       <!-- User's Reviews -->
+       <section class="container">
+        <h1 class="text-center fw-bold mt-5 mb-5">Happy <span class="different-text-color">Clients Say</span></h1>
+         <div class="row row-cols-1 row-cols-md-3 g-4 user ps-3 pe-3 w-100">
             <div class="col">
               <div class="card h-100">
                 <img src="images/user-1.png" class="card-img-top" alt="...">
@@ -134,15 +135,16 @@
             </div>
           </div>
        </section>
-       <section>
+       
+       <section class="container" mb-5>
         <h1 class="text-center fw-bold mt-5 mb-5">Frequently Asked <span class="different-text-color">Questions</span></h1>
         <div class="row">
             <div class="col-lg-6 col-12 faq">
                 <img class="img-fluid" src="images/faq.png" alt="">
             </div>
 
-            <div class="col-lg-6 col-12 py-5">
-                <div class="accordion w-75" id="accordionExample" >
+            <div class="col-lg-6 col-12 ">
+                <div class="accordion w-75 ms-5 mt-5" id="accordionExample"  >
                     <div class="accordion-item ">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -151,7 +153,9 @@
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            <article>
+                                <strong>Nothing feels quite like finding the perfect bike.</strong> As the weather continues to warm up, more people are choosing to ride a motorcycle for the first time. This is great, but when you’re a new rider, there’s a lot of information to take in. In order to help keep you, and everybody else on the road who you're riding around. Above all, we hope you’ll do two things for many years after your first time: have fun, and ride safe.
+                            </article>
                         </div>
                       </div>
                     </div>
@@ -164,7 +168,9 @@
                       </h2>
                       <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <article>
+                            <strong>Bear in mind that,</strong> If the helmet did its job most people would tell you that they did not even hit their head, or did not hit their head that hard. And the thin shells on most helmets now tend to hide any dents in the foam. But if you can see marks on the shell or measure any foam crush at all, replace the helmet.
+                          </article>
                         </div>
                       </div>
                     </div>
@@ -176,7 +182,9 @@
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <article>
+                            <strong>Preparation to Ride Your Motorcycle After Storage.</strong> Its entirely possible the bike is good and safe to ride with a bit of air in the tires and shocks/forks - this would heavily depend on the climate in the garage it was stored in and condition it was in before being hung up.
+                          </article>
                         </div>
                       </div>
                     </div>
@@ -188,7 +196,9 @@
                       </h2>
                       <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <article>
+                            <strong>Top 3 obvious rules.</strong> Be visible at all times. - Wear bright and visible clothes. Reflective stripes ads viability. Always stay out of blind zones. Alert other drivers before entering their blind zone. Be predictable. - Others on the road must be able to predict your next move. Give proper signals before changing a lane or taking deviation. Everyone in the road is dumb and partially blind. - Well, just imagine so and be prepared for an unexpected turn or braking.
+                          </article>
                         </div>
                       </div>
                     </div>
@@ -200,16 +210,17 @@
        <!-- Product Image Carousel -->
 
        <section class="container">
+        <h1 class="text-center fw-bold mt-5">Motorbike<span class="different-text-color"> Accessories</span></h1>  
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                   <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
                       <div class="col-lg-7">
                         <h1 class="fw-bold" >Caberg Drift Evo Full-Face Helmet</h1>
-                        <p>Serious touring bikers often have high expectations when it comes to their choice of headgear. So, of course, they're not going to settle for just any helmet - they want the highest level of both protection and comfort. And that's exactly what the Caberg Drift *EVO* full-face helmet delivers</p>
+                        <article>Serious touring bikers often have high expectations when it comes to their choice of headgear. So, of course, they're not going to settle for just any helmet - they want the highest level of both protection and comfort. And that's exactly what the Caberg Drift *EVO* full-face helmet delivers</article>
                         <h1>$100</h1>
                         <button class="global-button">Buy Now</button>
-                        </button>
+                        </button><br>
                       </div>
                       <div class="col-lg-5">
                         <img src="images/helmet.jpg" class="d-block w-100" alt="...">
@@ -221,10 +232,10 @@
                 <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
                   <div class="col-lg-7">
                     <h1 class="fw-bold">Pro biker Guard Original knee And elbow Guard</h1>
-                    <p>Stainless Steel Knee and Elbow Guards are designed using high impact PE and stainless steel materials to provide a greater degree of comfort and protection for knees and shins. Ideal to prevent the impacts, wind, bump, crash, etc.</p>
+                    <article>Stainless Steel Knee and Elbow Guards are designed using high impact PE and stainless steel materials to provide a greater degree of comfort and protection for knees and shins. Ideal to prevent the impacts, wind, bump, crash, etc.</article>
                     <h1>$70</h1>
                     <button class="global-button">Buy Now</button>
-                    </button>
+                    </button><br>
                   </div>
                   <div class="col-lg-5">
                     <img src="images/guard.jpg" class="d-block w-100" alt="...">
@@ -235,10 +246,10 @@
                 <div class="row panda-bg-info bg-gradient d-flex align-items-center p-5">
                   <div class="col-lg-7">
                     <h1 class="fw-bold">Leather Bike Hand Gloves</h1>
-                    <p>Banking on the skills of our qualified team of professionals, we are instrumental in offering a supreme quality range of Bike Hand Gloves.</p>
+                    <article>Banking on the skills of our qualified team of professionals, we are instrumental in offering a supreme quality range of Bike Hand Gloves.</article>
                     <h1>$50</h1>
                     <button class="global-button">Buy Now</button>
-                    </button>
+                    </button><br>
                   </div>
                   <div class="col-lg-5">
                     <img src="images/gloves.jpg" class="d-block w-100" alt="...">
@@ -258,7 +269,7 @@
       </section>
 
         <!-- Info Form -->
-       <section>
+       <section class="container">
         <h1 class="text-center fw-bold mt-5 mb-5">Stay Connected <span class="different-text-color">With Us</span></h1>
            <form action="">
                <input class="form-control mb-3" type="text" placeholder="Enter Your Name" >
@@ -268,11 +279,14 @@
                <button class="global-button ">Submit</button>
            </form>
         </section>
+ </main>
 
+  <footer class="mt-5 text-center">
+        <p><small>&copy 2021. All right reserved</small></p>
+  </footer>
 
-    <!-- bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-   </main>
-   <footer></footer> 
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
